@@ -28,6 +28,19 @@
 
 </nav>
 
+
+<!--Conteúdo aqui-->
+
+
+<footer class="bg-light text-black mt-5">
+    <div class="container py-3">
+    <p>&copy; 2023 Motomami</p>
+        <?php
+       print "<a href='contato.php'>Contato</a> | <a href='configusuario.php'>Perfil</a>";
+        ?>
+    </div>
+</footer>
+
 <!--Contéudo da página inicial aqui-->
 
 </body>
