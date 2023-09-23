@@ -29,7 +29,7 @@
 </nav>
 
 
-<!--Conteúdo aqui-->
+<?php include 'tabela.php'; ?>
 
 
 <footer class="bg-light text-black mt-5">
@@ -41,7 +41,7 @@
     </div>
 </footer>
 
-<!--Contéudo da página inicial aqui-->
+
 
 </body>
 </html>
