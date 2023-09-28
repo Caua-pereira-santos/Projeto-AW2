@@ -1,3 +1,5 @@
+
+<!--Avalia se existe uma sessão aberta-->
 <?php
     session_start();
     if(empty($_SESSION)){
