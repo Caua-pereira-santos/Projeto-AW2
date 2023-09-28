@@ -29,7 +29,7 @@
 
 </nav>
 
-
+<!--Pega o contéudo exibido na página tabela.php e exibe na página dashboard-->
 <?php include 'tabela.php'; ?>
 
 

@@ -9,6 +9,8 @@ if(isset($_COOKIE['usuario_nome'], $_COOKIE['usuario_telefone'], $_COOKIE['usuar
 }
 ?>
 
+<!--HTML para mostrar pro user quais informações foram armazenadas-->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
