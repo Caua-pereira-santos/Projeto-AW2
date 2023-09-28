@@ -21,5 +21,6 @@ if(isset($_COOKIE['usuario_nome'], $_COOKIE['usuario_telefone'], $_COOKIE['usuar
 <p><strong>Nome:</strong> <?php echo $nome; ?></p>
 <p><strong>Telefone:</strong> <?php echo $telefone; ?></p>
 <p><strong>Email:</strong> <?php echo $email; ?></p>
+<p><strong>Duração: 60 minutos</strong></p>
 </body>
 </html>

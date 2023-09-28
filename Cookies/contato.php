@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema - AW2</title>
+    <title>Contato</title>
     <!-- Conexão com o Bootstrap - para deixar o formulário de login bonitinho -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -19,7 +19,7 @@
 
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand">Motomami</a>
+    <a href="/dashboard.php" class="navbar-brand">Motomami</a>
         <?php
         print "Olá, " .$_SESSION["nome"];
         print "<a href='logout.php' class='btn btn-danger'> Sair</a>";
@@ -33,7 +33,7 @@
 <div class="container mt-5">
     <h2>Formulário de Contato</h2>
 
-    <form action="processa-form.php" method="post">
+    <form action="\cookies\processa-form.php" method="post">
         <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" class="form-control" id="nome" name="nome" required>
@@ -67,7 +67,7 @@
     <div class="container py-3">
     <p>&copy; 2023 Motomami</p>
         <?php
-       print "<a href='contato.php'>Contato</a> | <a href='configusuario.php'>Perfil</a>";
+       print "<a href='\Cookies\contato.php'>Contato</a> | <a href='\Perfil\configusuario.php'>Perfil</a>";
         ?>
     </div>
 </footer>

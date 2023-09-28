@@ -7,11 +7,11 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema - AW2</title>
+    <title>Perfil</title>
     <!-- Conexão com o Bootstrap - para deixar o formulário de login bonitinho -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -28,9 +28,15 @@
     </div>
 
 </nav>
+<br>
+<br>
 
+<form action="save_image.php" method="post" enctype="multipart/form-data">
+        Selecione a imagem de perfil:
+        <input type="file" name="profileImage" id="profileImage">
+        <input type="submit" value="Upload Image" name="submit">
+    </form>
 
-<?php include 'tabela.php'; ?>
 
 
 <footer class="bg-light text-black mt-5">

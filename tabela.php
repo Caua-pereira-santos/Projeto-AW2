@@ -12,9 +12,9 @@ $albuns = [];
 $musicas = [];
 
 $gravadoras[] = new Gravadora(1, "EMI Records", "123 Street, London");
-$artistas[] = new Artista(1, "Coldplay", $gravadoras[0]);
-$albuns[] = new Album(1, "A Head Full of Dreams", $artistas[0]);
-$musicas[] = new Musica(1, "Adventure of a Lifetime", "4:24", $albuns[0]);
+$artistas[] = new Artista(1, "Beyonce", $gravadoras[0]);
+$albuns[] = new Album(1, "Renassaince", $artistas[0]);
+$musicas[] = new Musica(1, "Alien Superstar", "4:30", $albuns[0]);
 
 $gravadoras[] = new Gravadora(2, "EMI Records", "123 Street, London");
 $artistas[] = new Artista(2, "Madonna", $gravadoras[1]);
@@ -25,6 +25,40 @@ $gravadoras[] = new Gravadora(3, "EMI Records", "123 Street, London");
 $artistas[] = new Artista(3, "Jay-Z", $gravadoras[2]);
 $albuns[] = new Album(3, "4:44", $artistas[2]);
 $musicas[] = new Musica(3, "4:44", "4:44", $albuns[2]);
+
+$gravadoras[] = new Gravadora(4, "EMI Records", "123 Street, London");
+$artistas[] = new Artista(4, "BLACK VEIL BRIDES", $gravadoras[3]);
+$albuns[] = new Album(4, "The Mourning", $artistas[3]);
+$musicas[] = new Musica(4, "Scarlet Cross", "4:44", $albuns[3]);
+
+$gravadoras[] = new Gravadora(5, "EMI Records", "123 Street, London");
+$artistas[] = new Artista(5, "Doja Cat", $gravadoras[4]);
+$albuns[] = new Album(5, "Planet Her", $artistas[4]);
+$musicas[] = new Musica(5, "Kiss me More", "3:29", $albuns[4]);
+
+$gravadoras[] = new Gravadora(5, "EMI Records", "123 Street, London");
+$artistas[] = new Artista(5, "Madonna", $gravadoras[5]);
+$albuns[] = new Album(5, "Madame X", $artistas[5]);
+$musicas[] = new Musica(5, "Dark Ballet", "6:00", $albuns[5]);
+
+$gravadoras[] = new Gravadora(4, "EMI Records", "123 Street, London");
+$artistas[] = new Artista(4, "M83", $gravadoras[6]);
+$albuns[] = new Album(4, "Hurry Up, We're Dreaming", $artistas[6]);
+$musicas[] = new Musica(4, "Outro", "4:07", $albuns[6]);
+
+$gravadoras[] = new Gravadora(4, "EMI Records", "123 Street, London");
+$artistas[] = new Artista(4, "Taylor Swift", $gravadoras[7]);
+$albuns[] = new Album(4, "Reputation", $artistas[7]);
+$musicas[] = new Musica(4, "I did something bad", "3:58", $albuns[7]);
+
+$gravadoras[] = new Gravadora(4, "EMI Records", "123 Street, London");
+$artistas[] = new Artista(4, "Kendrick Lamar", $gravadoras[3]);
+$albuns[] = new Album(4, "Mr.Morale e The Big Steppers", $artistas[3]);
+$musicas[] = new Musica(4, "Count me Out", "4:43", $albuns[3]);
+
+
+
+
 
 
 echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">';

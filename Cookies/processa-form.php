@@ -12,11 +12,11 @@ if(isset($_POST['nome'], $_POST['telefone'], $_POST['email'])) {
         setcookie("usuario_email", $email, time() + 3600, "/");
 
         // Redireciona para a página que mostra os cookies
-        header("Location: mostra-cookies.php");
+        header("Location: \Cookies\mostra-cookies.php");
         exit;
     } else {
         // Redireciona para a página de agradecimento
-        header("Location: agradecimento.php");
+        header("Location: \Cookies\agradecimento.php");
         exit;
     }
 }
