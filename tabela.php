@@ -1,4 +1,4 @@
-
+<!--Inclusão das classes Gravadora, Artista, Album e Musica-->
 
 <?php
 include 'Gravadora.php';
@@ -6,10 +6,14 @@ include 'Artista.php';
 include 'Album.php';
 include 'Musica.php';
 
+//Arrays para armazenar os valores
+
 $gravadoras = [];
 $artistas = [];
 $albuns = [];
 $musicas = [];
+
+//Criação dos objetos que serão armazenados na array
 
 $gravadoras[] = new Gravadora(1, "EMI Records", "123 Street, London");
 $artistas[] = new Artista(1, "Beyonce", $gravadoras[0]);
@@ -58,7 +62,7 @@ $musicas[] = new Musica(4, "Count me Out", "4:43", $albuns[3]);
 
 
 
-
+\\Criação da tabela com Bootstrap 
 
 
 echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">';
@@ -74,6 +78,8 @@ echo '</tr>';
 echo '</thead>';
 echo '<tbody>';
 
+//A tabela é preenchida com os objetos da Array que criamos, foreach percorre o array e preenche a tabela
+
 foreach ($musicas as $musica) {
     echo '<tr>';
     echo '<td>' . $musica->getNome() . '</td>';
@@ -83,6 +89,9 @@ foreach ($musicas as $musica) {
     echo '<td>' . $musica->getAlbum()->getArtista()->getGravadora()->getNome() . '</td>';
     echo '</tr>';
 }
+
+//Exibição da tabela 
+
 
 echo '</tbody>';
 echo '</table>';
