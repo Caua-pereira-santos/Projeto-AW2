@@ -62,7 +62,7 @@ $musicas[] = new Musica(4, "Count me Out", "4:43", $albuns[3]);
 
 
 
-\\Criação da tabela com Bootstrap 
+//Criação da tabela com Bootstrap 
 
 
 echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">';
